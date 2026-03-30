@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRD协议起草"
+  short_description: "依据PRD起草用户协议与隐私政策草案"
+  default_prompt: "Use $prd-legal-drafter to draft a user agreement and privacy policy from a product PRD without inventing facts."
+
+policy:
+  allow_implicit_invocation: true
