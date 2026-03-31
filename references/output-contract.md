@@ -11,11 +11,13 @@ Generate two standalone Chinese documents with conventional headings:
 ### Document A
 
 - title: `用户协议` or a product-specific equivalent
+- select the title style according to [agreement-writing-style.md](agreement-writing-style.md), for example `服务协议`, `用户服务协议`, or `软件许可及服务协议`
 - include at minimum: scope, account rules, service use, fees if any, user obligations, IP or content rules as applicable, service change or interruption, liability and disclaimers, termination, notice and contact, governing terms used by the organization
 
 ### Document B
 
 - title: `隐私政策` or a product-specific equivalent
+- select `隐私政策` or `隐私权政策` according to the matched baseline style
 - include at minimum: scope, controller or operator identity if known, categories of personal information, purposes and usage, sharing or entrustment, storage and protection, user rights, minors if applicable, update and contact
 
 Do not include any of the following in the external deliverable:
@@ -24,6 +26,7 @@ Do not include any of the following in the external deliverable:
 - fact-sheet labels such as `事实来源`, `模板选择说明`, `条款来源`, `溯源摘要`
 - internal drafting comments, confidence labels, or method notes
 - statements such as "based on PRD generation" unless the user explicitly asks for that wording
+- benchmark product names or wording such as `参考万相协议`、`参考千问协议`
 
 ## Layer 2: Internal Working Notes
 

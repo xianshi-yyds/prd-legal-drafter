@@ -26,6 +26,8 @@ Draft legal-first product agreements from structured facts, not from guesswork.
 - When the user supplies specific benchmark agreements, use them as preferred structure references before falling back to generic public examples.
 - Separate "template reuse" from "fact fill-in": a clause structure may be reused, but factual variables must come from sources.
 - When the PRD is ambiguous, surface the ambiguity in a gap list before finalizing.
+- Before trusting online captures, check [references/source-capture-qa.md](references/source-capture-qa.md) and prefer accepted captures over weak extractions.
+- Follow [references/agreement-writing-style.md](references/agreement-writing-style.md) so the final drafts match professional online-agreement conventions without exposing the benchmark source.
 
 ## Source Hierarchy
 
@@ -167,12 +169,18 @@ Do not automatically reuse benchmark-specific facts, including but not limited t
 - Prefer neutral, reviewable language over aggressive marketing phrasing.
 - Avoid claiming compliance status, certifications, or processing activities unless supported by sources.
 - Flag where legal review is still required.
+- Use the matched archetype to choose title style, opening prompt style, and section naming conventions.
+- Do not surface benchmark-product names, knowledge-base labels, or source-trace notes in the external agreements.
 
 ## Read These References When Needed
 
 - Read [references/product-intake-schema.md](references/product-intake-schema.md) to normalize product facts.
 - Read [references/intake-questionnaire.md](references/intake-questionnaire.md) when the PRD is incomplete and follow-up questions are needed.
 - Read [references/template-selection.md](references/template-selection.md) to choose the nearest baseline agreement.
+- Read [references/online-reference-matrix.md](references/online-reference-matrix.md) when the user provides official online agreements or wants product-archetype matching based on verified public sources.
+- Read [references/source-capture-qa.md](references/source-capture-qa.md) before relying on captured public pages as drafting baselines.
+- Read [references/archetype-examples.md](references/archetype-examples.md) when you need worked examples of how verified products map into drafting archetypes.
+- Read [references/agreement-writing-style.md](references/agreement-writing-style.md) when choosing titles, opening blocks, section names, and professional legal writing style.
 - Read [references/library-contract.md](references/library-contract.md) when a clause library, database, or RAG source is available.
 - Read [references/output-contract.md](references/output-contract.md) to format the deliverable and traceability notes.
 - Read [references/source-policy.md](references/source-policy.md) to enforce the no-fabrication rule and source hierarchy.
