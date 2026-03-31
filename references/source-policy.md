@@ -18,6 +18,8 @@ Apply this policy whenever drafting legal documents from product materials.
 - turning an optional template clause into a statement of fact without evidence
 - copying public examples as if they were already true for the target product
 - copying benchmark agreement facts such as operator name, account system, auto-renewal, storage location, or dispute venue into the target draft without source support
+- writing a polished, fully populated clause merely because it "looks standard" when the PRD only supports a placeholder or a narrower statement
+- treating ecosystem services, companion apps, or brand-adjacent services as confirmed scope for a hardware product without explicit support
 
 ## Conflict Handling
 
@@ -37,3 +39,5 @@ Use these internal labels while reasoning:
 - `missing`: required but absent
 
 Only `confirmed` and `templated` facts may appear as finalized statements in the draft.
+
+If a sentence sounds more precise than the source material actually is, downgrade it to `uncertain` or `missing`.

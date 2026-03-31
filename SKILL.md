@@ -10,12 +10,13 @@ Draft legal-first product agreements from structured facts, not from guesswork.
 ## Quick Start
 
 1. Read the PRD and any supplemental materials.
-2. Extract only supported facts into a fact sheet.
-3. Classify the product using [references/product-intake-schema.md](references/product-intake-schema.md).
-4. Select the closest existing agreement templates using [references/template-selection.md](references/template-selection.md).
-5. Check missing facts before drafting.
-6. Draft the User Agreement and Privacy Policy using confirmed facts plus explicit placeholders for unresolved items.
-7. Return the drafts together with a gap list and a clause-to-source trace summary.
+2. Run the document-type gate using [references/document-scope-gate.md](references/document-scope-gate.md).
+3. Extract only supported facts into a fact sheet.
+4. Classify the product using [references/product-intake-schema.md](references/product-intake-schema.md).
+5. Select the closest existing agreement templates using [references/template-selection.md](references/template-selection.md).
+6. Check missing facts before drafting.
+7. Draft the User Agreement and Privacy Policy using confirmed facts plus explicit placeholders for unresolved items.
+8. Return the drafts together with a gap list and a clause-to-source trace summary.
 
 ## Non-Negotiable Rules
 
@@ -28,6 +29,8 @@ Draft legal-first product agreements from structured facts, not from guesswork.
 - When the PRD is ambiguous, surface the ambiguity in a gap list before finalizing.
 - Before trusting online captures, check [references/source-capture-qa.md](references/source-capture-qa.md) and prefer accepted captures over weak extractions.
 - Follow [references/agreement-writing-style.md](references/agreement-writing-style.md) so the final drafts match professional online-agreement conventions without exposing the benchmark source.
+- Default to minimal-context drafting. Follow [references/minimal-drafting-playbook.md](references/minimal-drafting-playbook.md) and do not load the entire knowledge base unless the task truly requires it.
+- If the PRD is mainly a hardware or feature document and does not support a full privacy-processing narrative, produce a conservative draft instead of pretending the missing privacy facts exist.
 
 ## Source Hierarchy
 
@@ -59,6 +62,8 @@ Extract and normalize at least these categories:
 - External processors or capabilities: model providers, cloud vendors, SMS, payments, analytics, customer support tools
 
 If the PRD does not answer a required field, mark it as missing. Do not infer it from industry habit.
+
+Before extraction, use [references/document-scope-gate.md](references/document-scope-gate.md) to decide whether a full privacy policy is actually supportable from the materials.
 
 ### 2. Classify the Product
 
@@ -118,6 +123,10 @@ Draft both outputs:
 
 Follow [references/output-contract.md](references/output-contract.md) for required output structure.
 
+If the gate result is `conservative draft`, keep the structure but visibly preserve unsupported clauses as placeholders instead of polishing them into factual statements.
+
+If the gate result is `insufficient facts`, say so clearly rather than forcing a complete-looking privacy policy.
+
 ### 6. Return Traceability Notes
 
 For each document, include:
@@ -174,6 +183,8 @@ Do not automatically reuse benchmark-specific facts, including but not limited t
 
 ## Read These References When Needed
 
+- Read [references/minimal-drafting-playbook.md](references/minimal-drafting-playbook.md) first and keep the working set small.
+- Read [references/document-scope-gate.md](references/document-scope-gate.md) before deciding whether a full privacy policy or full service agreement is supportable from the PRD.
 - Read [references/product-intake-schema.md](references/product-intake-schema.md) to normalize product facts.
 - Read [references/intake-questionnaire.md](references/intake-questionnaire.md) when the PRD is incomplete and follow-up questions are needed.
 - Read [references/template-selection.md](references/template-selection.md) to choose the nearest baseline agreement.
