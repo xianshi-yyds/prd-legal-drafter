@@ -20,7 +20,7 @@ Default to plain-text legal document style, not Markdown presentation style.
 For final agreements:
 
 - use ordinary title lines and article numbering
-- avoid Markdown headings, tables, bullets used only for visual layout, and decorative separators
+- avoid Markdown headings, Markdown emphasis characters such as `**`, tables, bullets used only for visual layout, and decorative separators
 - keep spacing compact and conventional, similar to a normal `.txt` or word-processor draft
 
 ## 2. Title Selection
@@ -139,6 +139,7 @@ When this pattern is matched:
 - Keep defined terms stable after first definition.
 - Use numbered sections and subsections consistently.
 - Prefer plain text paragraphing over Markdown formatting.
+- Do not use Markdown emphasis characters for visual styling.
 - Put limitation-of-liability, suspension, termination, dispute, and user-responsibility clauses in clearly identifiable sections.
 - Use placeholders for missing facts instead of vague pseudo-certainty.
 - Do not mention benchmark products or “参考某某协议” in external output.
