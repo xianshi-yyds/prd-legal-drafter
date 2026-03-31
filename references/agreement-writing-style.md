@@ -15,6 +15,14 @@ The final external deliverable should normally be two standalone documents:
 
 Do not expose benchmark names, template provenance, traceability labels, or internal drafting notes in the external text.
 
+Default to plain-text legal document style, not Markdown presentation style.
+
+For final agreements:
+
+- use ordinary title lines and article numbering
+- avoid Markdown headings, tables, bullets used only for visual layout, and decorative separators
+- keep spacing compact and conventional, similar to a normal `.txt` or word-processor draft
+
 ## 2. Title Selection
 
 Choose the title style by matched archetype instead of normalizing everything to one title.
@@ -130,6 +138,7 @@ When this pattern is matched:
 - Use neutral legal prose, not promotional copy.
 - Keep defined terms stable after first definition.
 - Use numbered sections and subsections consistently.
+- Prefer plain text paragraphing over Markdown formatting.
 - Put limitation-of-liability, suspension, termination, dispute, and user-responsibility clauses in clearly identifiable sections.
 - Use placeholders for missing facts instead of vague pseudo-certainty.
 - Do not mention benchmark products or “参考某某协议” in external output.

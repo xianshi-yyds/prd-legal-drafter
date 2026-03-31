@@ -6,7 +6,21 @@ Return deliverables in two layers by default.
 
 This is the default user-facing output and should contain only the two agreement drafts.
 
-Generate two standalone Chinese documents with conventional headings:
+Generate two standalone Chinese documents in plain-text legal style.
+
+The external deliverable should look like a normal `.txt` agreement draft, not a Markdown article.
+
+Formatting rules for external deliverables:
+
+- do not use Markdown headings such as `#`, `##`, `###`
+- do not use tables
+- do not use bullet lists unless the clause itself naturally requires statutory-style enumeration
+- do not use checkbox symbols, emoji, separators, or decorative layout
+- do not add unnecessary indentation, visual ornaments, or presentation formatting
+- use ordinary Chinese legal document structure, such as title, date lines if supported, and numbered articles or sections
+- if the output is saved as a file, prefer `.txt` rather than `.md` unless the user explicitly asks for Markdown
+
+Generate two standalone Chinese documents with conventional legal headings:
 
 ### Document A
 
@@ -27,6 +41,7 @@ Do not include any of the following in the external deliverable:
 - internal drafting comments, confidence labels, or method notes
 - statements such as "based on PRD generation" unless the user explicitly asks for that wording
 - benchmark product names or wording such as `参考万相协议`、`参考千问协议`
+- Markdown decoration such as `#` headings, tables, checklist bullets, or presentation emojis
 
 ## Layer 2: Internal Working Notes
 

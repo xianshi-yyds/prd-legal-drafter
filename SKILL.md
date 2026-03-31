@@ -180,6 +180,7 @@ Do not automatically reuse benchmark-specific facts, including but not limited t
 - Flag where legal review is still required.
 - Use the matched archetype to choose title style, opening prompt style, and section naming conventions.
 - Do not surface benchmark-product names, knowledge-base labels, or source-trace notes in the external agreements.
+- Default to plain-text agreement output. Do not use Markdown headings, tables, checklist bullets, emojis, or decorative layout in the final external documents.
 
 ## Read These References When Needed
 
